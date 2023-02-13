@@ -1,5 +1,7 @@
 # seven-days-server-test
 
+7 Days to Die Dedicated ServerのDocker Compose構成テスト
+
 - 7 Days to Die α20.6
 - パーティ人数は7 Days to Dieの仕様で8人まで
     - 9人以上の仲間で遊ぶ場合は複数パーティ組むなどの工夫が必要
