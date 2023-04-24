@@ -2,11 +2,11 @@
 version: '3.8'
 services:
   7dtdserver:
-    image: "vinanrra/7dtd-server:v0.4.3"
+    image: "vinanrra/7dtd-server:v0.5.0"
     restart: always # INFO - NEVER USE WITH START_MODE=4 or START_MODE=0
     environment:
-      - START_MODE=1 #Change between START MODES
-      - VERSION=stable # Change between 7 days to die versions
+      - START_MODE=1 # Change between START MODES
+      - VERSION=alpha20.7 # Change between 7 days to die versions
       - PUID=1000 # Remember to use same as your user
       - PGID=1000 # Remember to use same as your user
       - TimeZone=Asia/Tokyo # Optional - Change Timezone
